@@ -1,0 +1,13 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../ayudantia 9.srcs/sources_1/new/BCDToSevenSeg.v" \
+"../../../../ayudantia 9.srcs/sources_1/new/Clock_Divider.v" \
+"../../../../ayudantia 9.srcs/sources_1/new/SevenSegController.v" \
+"../../../../ayudantia 9.srcs/sources_1/new/VisualizarNum.v" \
+"../../../../ayudantia 9.srcs/sources_1/new/Main.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

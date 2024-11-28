@@ -1,0 +1,9 @@
+srcscan starts
+srcscan exits with return value 0
+g (VERI-9002)
+INFO: analyzing module Clock_Divider (VERI-9002)
+INFO: analyzing module SevenSegController (VERI-9002)
+INFO: analyzing module ThreeToSevenSeg (VERI-9002)
+INFO: analyzing module VisualizarNum (VERI-9002)
+INFO: analyzing module Main (VERI-9002)
+srcscan exits with return value 0

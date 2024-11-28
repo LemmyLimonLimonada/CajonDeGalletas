@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Wed May 29 18:28:40 2024
+# Process ID: 1092
+# Current directory: C:/Users/Lemmy/Desktop/Chatarreria/Universidad/Coding/Vivado/ayudantia 9/ayudantia 9.runs/impl_1
+# Command line: vivado.exe -log Main.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source Main.tcl -notrace
+# Log file: C:/Users/Lemmy/Desktop/Chatarreria/Universidad/Coding/Vivado/ayudantia 9/ayudantia 9.runs/impl_1/Main.vdi
+# Journal file: C:/Users/Lemmy/Desktop/Chatarreria/Universidad/Coding/Vivado/ayudantia 9/ayudantia 9.runs/impl_1\vivado.jou
+# Running On: WarMachine, OS: Windows, CPU Frequency: 2496 MHz, CPU Physical cores: 4, Host memory: 8403 MB
+#-----------------------------------------------------------
+source Main.tcl -notrace

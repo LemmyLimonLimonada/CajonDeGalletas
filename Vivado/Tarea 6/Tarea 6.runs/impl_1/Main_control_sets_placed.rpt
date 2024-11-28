@@ -1,0 +1,90 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2023.2 (win64) Build 4029153 Fri Oct 13 20:14:34 MDT 2023
+| Date         : Sun Jun 30 17:30:38 2024
+| Host         : WarMachine running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file Main_control_sets_placed.rpt
+| Design       : Main
+| Device       : xc7a35t
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Histogram
+3. Flip-Flop Distribution
+4. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Total control sets                                       |    12 |
+|    Minimum number of control sets                        |    12 |
+|    Addition due to synthesis replication                 |     0 |
+|    Addition due to physical synthesis replication        |     0 |
+| Unused register locations in slices containing registers |    61 |
++----------------------------------------------------------+-------+
+* Control sets can be merged at opt_design using control_set_merge or merge_equivalent_drivers
+** Run report_qor_suggestions for automated merging and remapping suggestions
+
+
+2. Histogram
+------------
+
++--------------------+-------+
+|       Fanout       | Count |
++--------------------+-------+
+| Total control sets |    12 |
+| >= 0 to < 4        |    10 |
+| >= 4 to < 6        |     0 |
+| >= 6 to < 8        |     0 |
+| >= 8 to < 10       |     1 |
+| >= 10 to < 12      |     0 |
+| >= 12 to < 14      |     0 |
+| >= 14 to < 16      |     0 |
+| >= 16              |     1 |
++--------------------+-------+
+* Control sets can be remapped at either synth_design or opt_design
+
+
+3. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |               8 |            5 |
+| No           | No                    | Yes                    |               6 |            5 |
+| No           | Yes                   | No                     |              34 |           10 |
+| Yes          | No                    | No                     |               8 |            5 |
+| Yes          | No                    | Yes                    |               0 |            0 |
+| Yes          | Yes                   | No                     |               3 |            3 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+4. Detailed Control Set Information
+-----------------------------------
+
++-----------------------------------+---------------------------------------------------+-----------------------------------------+------------------+----------------+--------------+
+|            Clock Signal           |                   Enable Signal                   |             Set/Reset Signal            | Slice Load Count | Bel Load Count | Bels / Slice |
++-----------------------------------+---------------------------------------------------+-----------------------------------------+------------------+----------------+--------------+
+|  Clock_Divider_inst/clk_out_reg_0 | VisualizarNum_inst/salida/contador_reg[2]_inv_n_0 | VisualizarNum_inst/salida/an[1]_i_1_n_0 |                1 |              1 |         1.00 |
+|  Clock_Divider_inst/clk_out_reg_0 | VisualizarNum_inst/salida/contador_reg[2]_inv_n_0 | VisualizarNum_inst/salida/an[0]_i_1_n_0 |                1 |              1 |         1.00 |
+|  Clock_Divider_inst/clk_out_reg_0 | VisualizarNum_inst/salida/contador_reg[2]_inv_n_0 | VisualizarNum_inst/salida/an[2]_i_1_n_0 |                1 |              1 |         1.00 |
+|  btnR_sync2                       |                                                   | btnU_IBUF                               |                1 |              2 |         2.00 |
+|  btnR_sync2                       |                                                   | g_state[0]_i_2_n_0                      |                2 |              2 |         1.00 |
+|  btnR_sync2                       |                                                   | g_state_reg[1]_LDC_i_1_n_0              |                2 |              2 |         1.00 |
+|  p_nextstate_reg[1]_i_2_n_0       |                                                   |                                         |                1 |              2 |         2.00 |
+|  g_state_reg[1]_LDC_i_1_n_0       |                                                   | btnU_IBUF                               |                1 |              2 |         2.00 |
+|  Clock_Divider_inst/clk_out_reg_0 |                                                   |                                         |                2 |              3 |         1.50 |
+|  clk_IBUF_BUFG                    |                                                   |                                         |                2 |              3 |         1.50 |
+|  Clock_Divider_inst/clk_out_reg_0 | VisualizarNum_inst/salida/contador_reg[2]_inv_n_0 |                                         |                5 |              8 |         1.60 |
+|  clk_IBUF_BUFG                    |                                                   | Clock_Divider_inst/clk_out              |                9 |             32 |         3.56 |
++-----------------------------------+---------------------------------------------------+-----------------------------------------+------------------+----------------+--------------+
+
+

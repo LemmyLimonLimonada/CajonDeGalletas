@@ -1,0 +1,10 @@
+0.7
+2020.2
+Oct 13 2023
+20:47:58
+C:/Users/Lemmy/Desktop/Chatarreria/Universidad/Coding/Vivado/ayudantia 9/ayudantia 9.sim/sim_1/behav/xsim/glbl.v,1697210495,verilog,,,,glbl,,,,,,,,
+C:/Users/Lemmy/Desktop/Chatarreria/Universidad/Coding/Vivado/ayudantia 9/ayudantia 9.srcs/sources_1/new/BCDToSevenSeg.v,1717017869,verilog,,C:/Users/Lemmy/Desktop/Chatarreria/Universidad/Coding/Vivado/ayudantia 9/ayudantia 9.srcs/sources_1/new/Clock_Divider.v,,BCDToSevenSeg,,,,,,,,
+C:/Users/Lemmy/Desktop/Chatarreria/Universidad/Coding/Vivado/ayudantia 9/ayudantia 9.srcs/sources_1/new/Clock_Divider.v,1717019786,verilog,,C:/Users/Lemmy/Desktop/Chatarreria/Universidad/Coding/Vivado/ayudantia 9/ayudantia 9.srcs/sources_1/new/SevenSegController.v,,Clock_Divider,,,,,,,,
+C:/Users/Lemmy/Desktop/Chatarreria/Universidad/Coding/Vivado/ayudantia 9/ayudantia 9.srcs/sources_1/new/Main.v,1717021102,verilog,,,,Main,,,,,,,,
+C:/Users/Lemmy/Desktop/Chatarreria/Universidad/Coding/Vivado/ayudantia 9/ayudantia 9.srcs/sources_1/new/SevenSegController.v,1717017869,verilog,,C:/Users/Lemmy/Desktop/Chatarreria/Universidad/Coding/Vivado/ayudantia 9/ayudantia 9.srcs/sources_1/new/VisualizarNum.v,,SevenSegController,,,,,,,,
+C:/Users/Lemmy/Desktop/Chatarreria/Universidad/Coding/Vivado/ayudantia 9/ayudantia 9.srcs/sources_1/new/VisualizarNum.v,1717021648,verilog,,C:/Users/Lemmy/Desktop/Chatarreria/Universidad/Coding/Vivado/ayudantia 9/ayudantia 9.srcs/sources_1/new/Main.v,,VisualizarNum,,,,,,,,
